@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/School-Management-System-Frontend/static/css/main.ebcb1087.css",
-    "main.js": "/School-Management-System-Frontend/static/js/main.535b9fde.js",
+    "main.css": "/School-Management-System-Frontend/static/css/main.d2667b78.css",
+    "main.js": "/School-Management-System-Frontend/static/js/main.4040bb9c.js",
     "static/js/787.853fdad8.chunk.js": "/School-Management-System-Frontend/static/js/787.853fdad8.chunk.js",
     "index.html": "/School-Management-System-Frontend/index.html",
-    "main.ebcb1087.css.map": "/School-Management-System-Frontend/static/css/main.ebcb1087.css.map",
-    "main.535b9fde.js.map": "/School-Management-System-Frontend/static/js/main.535b9fde.js.map",
+    "main.d2667b78.css.map": "/School-Management-System-Frontend/static/css/main.d2667b78.css.map",
+    "main.4040bb9c.js.map": "/School-Management-System-Frontend/static/js/main.4040bb9c.js.map",
     "787.853fdad8.chunk.js.map": "/School-Management-System-Frontend/static/js/787.853fdad8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebcb1087.css",
-    "static/js/main.535b9fde.js"
+    "static/css/main.d2667b78.css",
+    "static/js/main.4040bb9c.js"
   ]
 }
