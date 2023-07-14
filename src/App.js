@@ -2,7 +2,7 @@ import './App.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 import React from 'react'
 
-import{BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import{HashRouter as Router, Routes, Route} from 'react-router-dom'
 import LoginPage from './Pages/LoginPage';
 import LandingPage from './Pages/LandingPage';
 import Header from './Components/Header';
