@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { ErrorBoundary } from 'react-error-boundary';
+
+function myFallbackComponent({ error, resetErrorBoundary }) {
+  return (
+    <div role="alert">
+      <p>Something went wrong:</p>
+      <pre>{error.message}</pre>
+    </div>
+  )
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+   <ErrorBoundary FallbackComponent={myFallbackComponent}>
     <App />
+    </ErrorBoundary>
   </React.StrictMode>
 );
 

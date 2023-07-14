@@ -1,38 +1,76 @@
-.App {
-  text-align: center;
+*{
+    font-size:18px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input,select,option,textarea{
+    border-radius: 5px;
+    border:1px solid grey;
+    padding:1px 5px;
+    outline: none;
+    /* -webkit-transition: 0.5s; */
+    transition: 0.1s;
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+input:focus,select:focus,textarea:focus {
+    border: 2px solid grey;
+    box-shadow: 3px 3px 15px lightgrey;
   }
+
+tr,td,th{
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+.vertical-center {
+    min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 65vh; /* These two lines are counted as one :-)       */
+  
+    display: flex;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  
+  #closebutton{
+      position: absolute;
+      color: white;
+      top: 80px;
+      right: 10px;
+      bottom:50px;
+      cursor:pointer;
   }
+  /* #closebutton{
+    position: absolute;
+    margin-bottom: 5px;
+    float: right;
+    border-radius: 30px ;
+    height: 40px;
+    padding: 10px;
+    cursor:pointer;
+} */
+
+
+
+#add_class_form,#add_student_form,#add_teacher_form,#list-view-tables,.tt/* ,.time-table*/{ 
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgb(182, 182, 182);
+    padding:30px;
+    margin-bottom:15px;
+    
+}
+
+
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;  
+}
+
+td{
+    max-width: 250px;
+}
+
+.table-header{
+    padding: 10px;
 }
